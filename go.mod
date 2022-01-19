@@ -8,7 +8,7 @@ require (
 	github.com/Azure/go-autorest/autorest/adal v0.9.18
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.2
 	github.com/BurntSushi/toml v1.0.0
-	github.com/GoogleCloudPlatform/docker-credential-gcr v1.5.0
+	github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible
 	github.com/alicebob/miniredis/v2 v2.17.0
 	github.com/aquasecurity/cfsec v0.2.2
 	github.com/aquasecurity/defsec v0.0.37
