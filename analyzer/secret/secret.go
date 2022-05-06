@@ -46,6 +46,7 @@ type SecretAnalyzer struct {
 
 func RegisterSecretAnalyzer(opt ScannerOption) error {
 	if opt.Disabled {
+		fmt.Println("secret analyzer disabled")
 		return nil
 	}
 	a, err := newSecretAnalyzer(opt.ConfigPath)
