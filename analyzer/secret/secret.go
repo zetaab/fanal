@@ -2,6 +2,7 @@ package secret
 
 import (
 	"context"
+	"fmt"
 	"io"
 	"math"
 	"os"
