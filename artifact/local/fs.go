@@ -3,6 +3,7 @@ package local
 import (
 	"context"
 	"crypto/sha256"
+	"fmt"
 	"encoding/json"
 	"os"
 	"path/filepath"
